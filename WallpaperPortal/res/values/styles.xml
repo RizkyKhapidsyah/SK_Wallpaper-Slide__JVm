@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="PrefStyle" parent="android:Theme.Light">
+    	<item name="android:listViewStyle">@style/ListView</item>
+    	<item name="android:windowNoTitle">true</item>  
+	</style>    
+    <style name="ListView">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:background">@color/listbg</item>
+        <item name="android:cacheColorHint">@color/listbg</item>
+        <item name="android:divider">@color/listdivider</item>
+        <item name="android:dividerHeight">1dp</item>
+    </style>
+</resources>

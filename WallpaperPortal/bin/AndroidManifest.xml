@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="wp.code.bhak"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:targetSdkVersion="10" android:minSdkVersion="7" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        
+        <service android:name="com.rk.WallpaperSlideshowService"
+			android:label="@string/app_name"
+			android:permission="android.permission.BIND_WALLPAPER">
+			<intent-filter>
+				<action android:name="android.service.wallpaper.WallpaperService" />
+			</intent-filter>
+			<meta-data android:name="android.service.wallpaper"
+				android:resource="@xml/wallpaper" />
+		</service>
+        
+        <activity
+            android:name="com.rk.WallpaperSlideshowActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.rk.WallpaperSlideshowSettings"
+            android:theme="@style/PrefStyle"
+            android:label="@string/settings_activity" 
+			android:exported="true">
+            
+        </activity>
+        <activity 
+            android:name="com.rk.SelectFolderActivity"
+            android:label="@string/selectfolderactivity" >
+        </activity>
+    </application>
+
+</manifest>

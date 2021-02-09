@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<!--     main activity -->
+    <string name="app_name">Wallpaper Slideshow Portal</string>
+	<string name="set_wallpaper">Set wallpaper</string>
+    <string name="settings">Settings</string>  
+    <string name="guide"><![CDATA[
+        <p>Wallpaper Slideshow Portal lets you to set slideshows as a live wallpaper . You can set a live wallpaper as your home screen background, by following these steps:</p>
+        <p>1. Go to Home Screen, touch "Menu"<br/>2. Select "Wallpaper", then choose "Live Wallpapers"<br/>3. Now you can select the Live Wallpaper<br/>4. Press the Preview button<br/>5. "Apply" it or press "Settings" and configue it.</p>]]>
+        </string>
+    
+<!--     settings preferences -->
+
+	<string name="preference">PREFERENCE</string>
+    <string name="settings_activity">Wallpaper Slideshow Portal Settings</string>
+    
+    <string name="prefolder_key">FOLDER</string>
+    <string name="prefolder_title">Folder</string>
+	<string name="prefolder_summary">Folder containing photos to use in slideshow</string>
+    <string name="prefolder_default">/sdcard/DCIM</string>
+    <string-array name="prefolder_datatexts" />
+    <string-array name="prefolder_datavalues" />
+    
+    <string name="presubfolder_key">RECURSE</string>
+    <string name="presubfolder_title">Recurse folder</string>
+	<string name="presubfolder_summary">Include photos from sub-folders of selected folder</string>
+    <string name="presubfolder_default">false</string>
+    
+    <string name="preduration_key">DURATION</string>
+    <string name="preduration_title">Duration</string>
+	<string name="preduration_summary">Duration to display each photo</string>
+    <string name="preduration_default">15000</string>
+    <string-array name="preduration_datatexts">
+    	<item>15 seconds</item>
+    	<item>30 seconds</item>
+    	<item>1 minute</item>
+    	<item>15 minutes</item>
+    	<item>30 minutes</item>
+    	<item>1 hour</item>
+    	<item>6 hours</item>
+    	<item>12 hours</item>
+    	<item>1 day</item>
+    	<item>Manual</item>
+    </string-array>
+    <string-array name="preduration_datavalues">
+    	<item>15000</item>
+    	<item>30000</item>
+    	<item>60000</item>
+    	<item>900000</item>
+    	<item>1800000</item>
+    	<item>3600000</item>
+    	<item>21600000</item>
+    	<item>43200000</item>
+    	<item>86400000</item>
+    	<item>0</item>
+    </string-array>
+    
+    <string name="prerandom_key">RANDOM</string>
+    <string name="prerandom_title">Random</string>
+	<string name="prerandom_summary">Display photos in random order instead of sequentially</string>
+    <string name="prerandom_default">false</string>
+    
+    <string name="prerotate_key">ROTATE</string>
+    <string name="prerotate_title">Do not rotate</string>
+	<string name="prerotate_summary">Keep original screen orientation of photos</string>
+    <string name="prerotate_default">false</string>
+    
+    <string name="prescroll_key">SCROLL</string>
+    <string name="prescroll_title">Scroll wallpaper</string>
+	<string name="prescroll_summary">Scroll wallpaper when changing home screens</string>
+    <string name="prescroll_default">false</string>
+    <string name="prescroll_dialog">All photos will be stretched to fill your home screens. If you use low resolution or portrait style photos, this can result in poor image quality. For best results, use wallpaper scrolling with desktop sized photos (640x480, 1024x768, etc).</string>
+    
+    <string name="predoubletap_key">DOUBLETAP</string>
+    <string name="predoubletap_title">Enable touch events</string>
+	<string name="predoubletap_summary">Double tap screen to skip to the next photo</string>
+    <string name="predoubletap_default">true</string>
+    
+    <string name="preawake_key">AWAKE</string>
+    <string name="preawake_title">Change on screen awake</string>
+	<string name="preawake_summary">Change wallpaper each time the screen is turned on</string>
+    <string name="preawake_default">false</string>
+    
+    <string name="preabout_key">ABOUT</string>
+    <string name="preabout_title">About Wallpaper Slideshow Portal</string>
+     <string name="preabout_dialog"><![CDATA[
+		<p><b>Version: {VersionName}</b></p>
+		<p>Wallpaper Slideshow Portal lets you to turn your home screen to slideshow with images of your choice.</p>
+		<p>This app is compatible from Android 2.1 onwards.</p>
+		<p>You would definitely enjoy using Wallpaper Slideshow Portal.</p>
+		]]></string>   
+<!--     select folder images -->
+
+	<string name="selectfolderactivity">Select an album</string>
+    <string name="progressDialog_title">Please wait</string>
+	<!--     &#8230; is unicode for "..." -->
+    <string name="progressDialog_msg">Searching folders, this can take some time to complete&#8230;</string>
+    
+    <string name="alertDialog_title">No photos</string>
+    <string name="alertDialog_msg">There were no folders containing photos found.</string>
+    
+
+<!--  	Live wallpaper -->
+    <string name="description">View your photos as slideshow on your homescreen wallpaper at a defined interval</string>
+
+    
+</resources>

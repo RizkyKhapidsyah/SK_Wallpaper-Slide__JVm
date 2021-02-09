@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<ListPreference
+	    android:key="@string/prefolder_key"
+		android:title="@string/prefolder_title"
+		android:summary="@string/prefolder_summary"
+		android:defaultValue="@string/prefolder_default"
+		android:entries="@array/prefolder_datatexts"
+		android:entryValues="@array/prefolder_datavalues"/>
+
+	<CheckBoxPreference
+	    android:key="@string/presubfolder_key"
+		android:title="@string/presubfolder_title"
+		android:summary="@string/presubfolder_summary"
+		android:defaultValue="@string/presubfolder_default" />
+
+	<ListPreference
+		android:key="@string/preduration_key"
+		android:title="@string/preduration_title"
+		android:summary="@string/preduration_summary"
+		android:defaultValue="@string/preduration_default"
+		android:entries="@array/preduration_datatexts"
+		android:entryValues="@array/preduration_datavalues" />
+
+	<CheckBoxPreference
+		android:key="@string/prerandom_key"
+		android:title="@string/prerandom_title"
+		android:summary="@string/prerandom_summary"
+		android:defaultValue="@string/prerandom_default" />
+
+	<CheckBoxPreference
+		android:key="@string/prerotate_key"
+		android:title="@string/prerotate_title"
+		android:summary="@string/prerotate_summary"
+		android:defaultValue="@string/prerotate_default" />
+
+	<CheckBoxPreference
+		android:key="@string/prescroll_key"
+		android:title="@string/prescroll_title"
+		android:summary="@string/prescroll_summary"
+		android:defaultValue="@string/prescroll_default" />
+
+	<CheckBoxPreference
+	    android:key="@string/predoubletap_key"
+		android:title="@string/predoubletap_title"
+		android:summary="@string/predoubletap_summary"
+		android:defaultValue="@string/predoubletap_default" />
+
+	<CheckBoxPreference
+	    android:key="@string/preawake_key"
+		android:title="@string/preawake_title"
+		android:summary="@string/preawake_summary"
+		android:defaultValue="@string/preawake_default" />
+
+	<Preference
+	    android:key="@string/preabout_key"
+		android:title="@string/preabout_title" />
+
+</PreferenceScreen>
